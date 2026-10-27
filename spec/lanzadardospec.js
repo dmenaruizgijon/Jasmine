@@ -33,7 +33,6 @@ describe("Testeo de función lanzarDado()", function () {
         }
     });
 
-    // BONUS
     describe("BONUS: Tras 100000 lanzamientos la probabilidad de cada cara debería ser 1/6 con un margen del ±10%", function () {
         const TOTAL = 100000;
         const probabilidadEsperada = 1 / 6;
